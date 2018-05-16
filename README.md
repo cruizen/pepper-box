@@ -1,20 +1,20 @@
 # Pepper-Box - Kafka Load Generator
 
-[![Build Status](https://travis-ci.org/GSLabDev/pepper-box.svg?branch=master)](https://travis-ci.org/GSLabDev/pepper-box) [![Coverage Status](https://coveralls.io/repos/github/GSLabDev/pepper-box/badge.svg?branch=master&maxAge=0)](https://coveralls.io/github/GSLabDev/pepper-box?branch=master)
+[![Build Status](https://travis-ci.org/cruizen/pepper-box.svg?branch=master)](https://travis-ci.org/cruizen/pepper-box) [![Coverage Status](https://coveralls.io/repos/github/cruizen/pepper-box/badge.svg?branch=master&maxAge=0)](https://coveralls.io/github/cruizen/pepper-box?branch=master)
 
 ___
 
-Pepper-Box is kafka load generator plugin for jmeter. It allows to send kafka messages of type plain text(JSON, XML, CSV or any other custom format) as well as java serialized objects.
+Pepper-Box is a Kafka load generator plugin for JMeter. It allows to send Kafka messages of type plain text(JSON, XML, CSV or any other custom format) as well as Java serialized objects.
 
 ## Getting Started
 ___
 
 Pepper-Box includes four main components
 
-* **PepperBoxKafkaSampler** : This is jmeter java sampler sends messages to kafka.
-* **Pepper-Box PlainText Config** : This jmeter config element generates plaintext messages based on input schema template designed.
-* **Pepper-Box Serialized Config** : This jmeter config element generates serialized object messages based on input class and its property configurations.
-* **PepperBoxLoadGenerator** : This is standalone utility which can be used without jmeter.
+* **PepperBoxKafkaSampler** : This is a JMeter java sampler that sends messages to kafka.
+* **Pepper-Box PlainText Config** : This JMeter config element generates plaintext messages based on input schema template designed.
+* **Pepper-Box Serialized Config** : This JMeter config element generates serialized object messages based on input class and its property configurations.
+* **PepperBoxLoadGenerator** : This is a standalone utility that can be used without jmeter.
 
 ### Setup
 ___
